@@ -186,7 +186,7 @@ function App() {
     // console.log(items);
   }, [items])
   return (
-    <div>
+    <div >
       <input
         type="file"
         onChange={(e) => {
@@ -195,23 +195,23 @@ function App() {
         }}
       />
 
-      <table class="table container">
+      <table class="table container" >
         <thead>
           <tr>
-            <th scope="col">項次</th>
-            <th scope="col">客戶料號</th>
-            <th scope="col">品名</th>
-            <th scope="col">數量</th>
-            <th scope="col">零件位置</th>
-            <th scope="col">備註</th>
+            <th style={{width:"20%"}} scope="col">項次</th>
+            <th style={{width:"60%"}} scope="col">客戶料號</th>
+            <th style={{width:"100%"}} scope="col">品名</th>
+            <th style={{width:"20%"}} scope="col">數量</th>
+            <th style={{width:"200%"}} scope="col">零件位置</th>
+            <th style={{width:"40%"}} scope="col">備註</th>
           </tr>
         </thead>
         <tbody>
           {items.map((d, i) => (
-            <tr key={d.data.客戶料號 + (i++)} style={{ backgroundColor: d.type.delete ? "#FF2400" : d.type.add ? "#FFFF00" : "#ffffff" }}>
-              <th>{d.data.項次}</th>
+            <tr key={d.data.客戶料號 + (i++)} style={{backgroundColor: d.type.delete ? "#FF2400" : d.type.add ? "#FFFF00" : "#ffffff" }}>
+              <th >{d.data.項次}</th>
               <td>{d.data.客戶料號}</td>
-              <td style={{width:"10%", backgroundColor: d.type.delete ? "#FF2400" : d.type.add ? "#FFFF00" : d.type.name ? "#F87217" : "#ffffff" }} >{d.data.品名}</td>
+              <td style={{ backgroundColor: d.type.delete ? "#FF2400" : d.type.add ? "#FFFF00" : d.type.name ? "#F87217" : "#ffffff" }} >{d.data.品名}</td>
               <td style={{ backgroundColor: d.type.delete ? "#FF2400" : d.type.add ? "#FFFF00" : d.type.amount ? "#728FCE" : "#ffffff" }}>{d.data.數量}</td>
               <td style={{ backgroundColor: d.type.delete ? "#FF2400" : d.type.add ? "#FFFF00" : d.type.locaton ? "#AB784E" : "#ffffff" }}>{d.data.零件位置}</td>
               {/* <td style={{backgroundColor:d.type.name?"F87217":"#ffffff"}}>{d.data.品名}</td>
