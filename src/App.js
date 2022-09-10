@@ -211,7 +211,7 @@ function App() {
             <tr key={d.data.客戶料號 + (i++)} style={{ backgroundColor: d.type.delete ? "#FF2400" : d.type.add ? "#FFFF00" : "#ffffff" }}>
               <th>{d.data.項次}</th>
               <td>{d.data.客戶料號}</td>
-              <td style={{ backgroundColor: d.type.delete ? "#FF2400" : d.type.add ? "#FFFF00" : d.type.name ? "#F87217" : "#ffffff" }} >{d.data.品名}</td>
+              <td style={{width:"10%", backgroundColor: d.type.delete ? "#FF2400" : d.type.add ? "#FFFF00" : d.type.name ? "#F87217" : "#ffffff" }} >{d.data.品名}</td>
               <td style={{ backgroundColor: d.type.delete ? "#FF2400" : d.type.add ? "#FFFF00" : d.type.amount ? "#728FCE" : "#ffffff" }}>{d.data.數量}</td>
               <td style={{ backgroundColor: d.type.delete ? "#FF2400" : d.type.add ? "#FFFF00" : d.type.locaton ? "#AB784E" : "#ffffff" }}>{d.data.零件位置}</td>
               {/* <td style={{backgroundColor:d.type.name?"F87217":"#ffffff"}}>{d.data.品名}</td>
