@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/bomfilter/static/css/main.5f361e03.chunk.css",
-    "main.js": "/bomfilter/static/js/main.86e9e8a5.chunk.js",
-    "main.js.map": "/bomfilter/static/js/main.86e9e8a5.chunk.js.map",
+    "main.css": "/bomfilter/static/css/main.f12d7441.chunk.css",
+    "main.js": "/bomfilter/static/js/main.f9cb2e8d.chunk.js",
+    "main.js.map": "/bomfilter/static/js/main.f9cb2e8d.chunk.js.map",
     "runtime-main.js": "/bomfilter/static/js/runtime-main.1afe84a6.js",
     "runtime-main.js.map": "/bomfilter/static/js/runtime-main.1afe84a6.js.map",
     "static/js/2.eeafaca6.chunk.js": "/bomfilter/static/js/2.eeafaca6.chunk.js",
     "static/js/2.eeafaca6.chunk.js.map": "/bomfilter/static/js/2.eeafaca6.chunk.js.map",
     "index.html": "/bomfilter/index.html",
-    "precache-manifest.60b57029176c28bcb0806a898a87c3ea.js": "/bomfilter/precache-manifest.60b57029176c28bcb0806a898a87c3ea.js",
+    "precache-manifest.6fbe2cbfc64c9d0e61d9929f5092d989.js": "/bomfilter/precache-manifest.6fbe2cbfc64c9d0e61d9929f5092d989.js",
     "service-worker.js": "/bomfilter/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/bomfilter/static/css/main.5f361e03.chunk.css.map",
+    "static/css/main.f12d7441.chunk.css.map": "/bomfilter/static/css/main.f12d7441.chunk.css.map",
     "static/js/2.eeafaca6.chunk.js.LICENSE.txt": "/bomfilter/static/js/2.eeafaca6.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/bomfilter/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1afe84a6.js",
     "static/js/2.eeafaca6.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.86e9e8a5.chunk.js"
+    "static/css/main.f12d7441.chunk.css",
+    "static/js/main.f9cb2e8d.chunk.js"
   ]
 }
